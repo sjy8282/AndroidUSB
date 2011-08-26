@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:weightSum="1">
+    <TextView android:layout_weight="0.20" android:text="Settings" android:id="@+id/textView1" android:layout_height="wrap_content" android:layout_width="198dp"></TextView>
+    <Button android:layout_width="106dp" android:layout_height="wrap_content" android:id="@+id/ok" android:text="@string/ok"></Button>
+    <Button android:layout_width="104dp" android:layout_height="wrap_content" android:text="@string/show" android:id="@+id/show"></Button>
+    
+</LinearLayout>
